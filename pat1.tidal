@@ -1,0 +1,7 @@
+d1 $ jux rev $ ghost $ slow 2
+ $ layer [id, off 0.06 (|* note "<0 -4 -2> [<3 20> <7 22>] <12 7> <19 15>")] 
+ $ n (scale "minPent" "0 .. 7") # s "[bass3,tabla:3]"
+ # room 0.4 # size 0.8 # velocity 0.8 # release 0.2 # octave 5
+
+d1 silence
+
